@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Search Music.">
+    <title>Albums4U</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Sansita&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  <div class="wrapper">
+
+	<section class="header pure-g">
+		<header>
+			<nav id="mainLogo"><a href="index.html"><b>Albums4U</b></a></nav>
+			<div class="formWrapper">
+				<h3 class="instructions">Search for any artist to see their albums:</h3>
+				<form id="search-term" class="search">
+					<input type="text" placeholder="Start searchin'..." id="query">
+          <br><br>
+					<input type="submit" id="submit">
+				</form>
+			</div>
+		</header>	
+	</section>
+
+	<br><br><br><br>
+
+	<section class="albumResults clearfix">	
+		<div id="album" class="hide">
+			<p>Here are your albums:</p>
+      <h4><i>Click on album covers to open up spotify</i></h4>
+      <ul></ul>
+		</div>
+	</section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+  </body>
+</html>
